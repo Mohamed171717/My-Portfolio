@@ -14,3 +14,24 @@ let linkList = document.querySelectorAll('.page .sidebar a');
     }
 }
 
+// add the progress
+let ourSkills = document.querySelector("#boot");
+
+window.onscroll = function() {
+  // skills ofSetTop
+  let skillOfSetTop = ourSkills.offsetTop;
+  // skills outer height 
+  let skillOuterHeight = ourSkills.offsetHeight;
+  // window height
+  let windowHeight = this.innerHeight;
+  // window scroll top
+  let windowScrollTop = this.scrollY;
+  
+  if ( windowScrollTop > ( skillOfSetTop + skillOuterHeight - windowHeight ) ) {
+    allSkills = document.querySelectorAll(".about .level span");
+    allSkills.forEach( skill => {
+      skill.style.width = skill.dataset.progress;
+    })
+  }
+}
+
