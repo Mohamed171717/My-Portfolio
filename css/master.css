@@ -52,6 +52,7 @@ p {
 h2 {
   font-size: 30px !important;
   color: var(--grey-color);
+  padding: 20px 0 20px 0;
 }
 a {
   text-decoration: none;
@@ -124,6 +125,10 @@ a {
   align-items: center;
   gap: 10px;
 }
+.content .head h1 {
+  margin: 0;
+  padding: 25px 0 10px 0;
+}
 .content .head h1 span {
   color: var(--alt-green-color);
 }
@@ -139,7 +144,6 @@ a {
 .content .about h2 {
   width: 200px;
   border-bottom: 1px solid var(--grey-color);
-  padding-bottom: 20px;
 }
 .content .about .level {
   height: 10px;
