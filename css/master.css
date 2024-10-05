@@ -452,6 +452,7 @@ footer .icons span {
   }
   .content .contact .icon span {
     font-size: 13px;
+    margin-left: 15px;
   }
   .content .contact form input {
     width: 200px;
