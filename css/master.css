@@ -229,6 +229,10 @@ a {
   background-color: var(--alt-green-color);
   color: #ddd;
 }
+.content .photos-page .basic a {
+  background-color: var(--green-color);
+  color: var(--grey-color);
+}
 /* end photos */
 /* start projects */
 .content .projects-page h2 {
